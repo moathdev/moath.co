@@ -1,4 +1,3 @@
-
 <html dir="rtl" lang="ar">
 <head>
     <meta name="description" content="خدمة تمكنك من فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم وبكل سهولة">
@@ -13,114 +12,123 @@
     <title>WhatsApp</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
-    <style type="text/css">body {
-        display: flex;
-        flex-direction: column
-    }
+    <style type="text/css">
+        body {
+            display: flex;
+            flex-direction: column
+        }
 
-    main {
-        flex: 1
-    }
+        main {
+            flex: 1
+        }
 
-    a {
-        color: #0054BC
-    }
+        a {
+            color: #0054BC
+        }
 
-    input {
-        width: 100%;
-        font-size: 32px !important;
-        border-radius: 0 !important;
-        outline: 0 !important;
-        border: 0 !important
-    }
+        input {
+            width: 100%;
+            font-size: 32px !important;
+            border-radius: 0 !important;
+            outline: 0 !important;
+            border: 0 !important
+        }
 
-    label {
-        display: block;
-        font-weight: 500;
-        font-size: 1.5rem;
-        margin: 21px;
-        text-align: justify;
-        line-height: 1.618em
-    }
+        label {
+            display: block;
+            font-weight: 500;
+            font-size: 1.5rem;
+            margin: 21px;
+            text-align: justify;
+            line-height: 1.618em
+        }
 
-    footer {
-        padding: 0;
-        text-align: center
-    }
+        footer {
+            padding: 0;
+            text-align: center
+        }
 
-    .copyright {
-        border-top: 1px solid #f2f2f2;
-        padding: 15px;
-        margin-left: -15px;
-        margin-right: -15px
-    }
+        .copyright {
+            border-top: 1px solid #f2f2f2;
+            padding: 15px;
+            margin-left: -15px;
+            margin-right: -15px
+        }
 
-    .social-share .col {
-        padding: 0;
-        text-align: center
-    }
+        .social-share .col {
+            padding: 0;
+            text-align: center
+        }
 
-    .social-share .col > .btn {
-        width: 100%;
-        border-radius: 0;
-        height: 50px;
-        font-size: 28px;
-        vertical-align: top;
-        color: #fff
-    }
+        .social-share .col > .btn {
+            width: 100%;
+            border-radius: 0;
+            height: 50px;
+            font-size: 28px;
+            vertical-align: top;
+            color: #fff
+        }
 
-    .social-share .col > .btn.whatsapp {
-        font-size: 36px;
-        background: #00c856
-    }
+        .social-share .col > .btn.whatsapp {
+            font-size: 36px;
+            background: #00c856
+        }
 
-    .social-share .col > .btn.twitter {
-        background: #50abf1
-    }
+        .social-share .col > .btn.twitter {
+            background: #50abf1
+        }
 
-    .social-share .col > .btn.facebook {
-        background: #395597
-    }
+        .social-share .col > .btn.facebook {
+            background: #395597
+        }
 
-    .social-share .col > .btn.telegram {
-        background: #009be1
-    }
+        .social-share .col > .btn.telegram {
+            background: #009be1
+        }
 
-    #phone {
-        border: none !important;
-        box-shadow: none
-    }</style>
+        #phone {
+            border: none !important;
+            box-shadow: none
+        }</style>
 </head>
 <body onload="document.getElementById('phone').focus();">
 <main class="container">
     <div class="row">
         <div class="col-xs-12">
-            <form method="GET" action="#" onsubmit="return openWhatsapp(document.getElementById('phone').value);"><label for="phone">يمكنك الآن فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم، فقط قم بلصق أو كتابة الرقم في
-                الخانة أدناه ثم اضغط زر GO</label>
+            <form method="GET" action="#" onsubmit="return openWhatsapp(document.getElementById('phone').value);">
+                <label for="phone">يمكنك الآن فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم، فقط قم بلصق أو كتابة الرقم في
+                    الخانة أدناه ثم اضغط زر GO</label>
                 <hr>
                 <input class="form-control" type="tel" id="phone" placeholder="ضع الرقم هنا">
+                <input type="submit" class="btn btn-lg btn-success text-center" value="GO">
+            </form>
         </div>
-        <input type="submit" class="btn btn-lg btn-success text-center" value="GO"></form></div>
-    </div></main>
+    </div>
+</main>
 <footer>
     <div class="container-fluid text-left">
-        <div class="copyright">Developed By: <a rel="noopener" href="https://twitter.com/moathdev" target="_blank">Moath
-            Saleh</a></div>
+        <div class="copyright">
+            Developed By: <a rel="noopener" href="https://twitter.com/moathdev" target="_blank">Muath Aljehani</a>
+        </div>
         <div class="social-share row">
             <div class="col">
-                <button class="btn whatsapp" href="#" onclick="window.location='whatsapp://send?text=' + encodeURIComponent('خدمة تمكنك من فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم وبكل سهولة') + '%0A' + encodeURIComponent('https://moath.co/whatsapp.html'); return false;">
+                <button class="btn whatsapp" href="#"
+                        onclick="window.location='whatsapp://send?text=' + encodeURIComponent('خدمة تمكنك من فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم وبكل سهولة') + '%0A' + encodeURIComponent('https://moath.co/whatsapp.html'); return false;">
                     <i class="fa fa-whatsapp"></i></button>
             </div>
             <div class="col">
-                <button class="btn twitter" href="#" onclick="window.location='twitter://post?message=' + encodeURIComponent('خدمة تمكنك من فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم وبكل سهولة') + '%0A' + encodeURIComponent('https://moath.co/whatsapp.html'); return false;">
+                <button class="btn twitter" href="#"
+                        onclick="window.location='twitter://post?message=' + encodeURIComponent('خدمة تمكنك من فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم وبكل سهولة') + '%0A' + encodeURIComponent('https://moath.co/whatsapp.html'); return false;">
                     <i class="fa fa-twitter"></i></button>
             </div>
             <div class="col">
-                <button class="btn facebook" href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://moath.co/whatsapp.html'); return false;">
+                <button class="btn facebook" href="#"
+                        onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://moath.co/whatsapp.html'); return false;">
                     <i class="fa fa-facebook"></i></button>
             </div>
             <div class="col">
-                <button class="btn telegram" href="#" onclick="window.location='tg://msg?text=' + encodeURIComponent('خدمة تمكنك من فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم وبكل سهولة') + '%0A' + encodeURIComponent('https://moath.co/whatsapp.html'); return false;">
+                <button class="btn telegram" href="#"
+                        onclick="window.location='tg://msg?text=' + encodeURIComponent('خدمة تمكنك من فتح أي محادثة واتساب بدون الحاجة لحفظ الرقم وبكل سهولة') + '%0A' + encodeURIComponent('https://moath.co/whatsapp.html'); return false;">
                     <i class="fa fa-paper-plane"></i></button>
             </div>
         </div>
